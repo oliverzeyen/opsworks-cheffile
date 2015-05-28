@@ -1,6 +1,6 @@
 site "http://community.opscode.com/api/v1"
 
-cookbook 'nginx', github: 'swrobel/opsworks-cookbooks', path: 'nginx', ref: 'master-chef-11.10'
-cookbook 'unicorn', github: 'swrobel/opsworks-cookbooks', path: 'unicorn', ref: 'master-chef-11.10'
 cookbook 'newrelic'
 cookbook 'opsworks_custom_env', github: 'CultConspiracy/opsworks_custom_env'
+cookbook 'postgresql', github: 'tibbon/custom-opsworks-cookbooks'
+cookbook 'rvm', github: 'martinisoft/chef-rvm', ref:'v0.9.0'
